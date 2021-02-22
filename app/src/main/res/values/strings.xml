@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="convert">convert</string>
+    <string name="to">to</string>
+    <string name="editbox1">enter amount</string>
+    <string name="To">To</string>
+    <string name="enter">Enter the amount</string>
+    <string name="currency_converter">Currency Converter</string>
+
+</resources>

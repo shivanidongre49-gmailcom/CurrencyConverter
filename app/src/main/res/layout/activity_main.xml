@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true"
+    android:background="#F0FFFF"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/currency_converter"
+            android:textSize="45sp"
+            android:textColor="#2B65EC"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        >
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:width="310dp"
+            android:background="#E0FFFF"
+            android:hint="@string/enter"
+            android:textColor="#3090C7"
+            android:gravity="center_vertical"
+             />
+        <Spinner
+            android:id="@+id/firstlist"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#E0FFFF"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+        <TextView
+            android:id="@+id/to"
+            android:layout_width="90dp"
+
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:text="@string/To"
+            android:background="#E0FFFF"
+            android:textColor="#3090C7"
+            android:layout_marginStart="165dp"
+            android:gravity="center"
+
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+
+        >
+        <TextView
+            android:id="@+id/res"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textColor="#728FCE"
+            android:width="310dp"
+            android:background="#E0FFFF"
+            android:gravity="center_horizontal" />
+        <Spinner
+            android:id="@+id/secondlist"
+            android:layout_width="145dp"
+            android:background="#E0FFFF"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/convertbtn"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="165dp"
+            android:background="#E0FFFF"
+            android:text="@string/convert"
+            android:textColor="#3090C7"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
